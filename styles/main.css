@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Raleway:wght@200;300&display=swap');
+
+body {
+    background-color: #43493a;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
+h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #f3faff;
+    font-size: 3em;
+    line-height: 48px;
+    font-weight: 300;
+}
+
+
+#location {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #f3faff;
+    font-size: 1em;
+    line-height: 32px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 16px;
+    font-family: 'Cabin', sans-serif;
+    color: #f3faff;
+    font-size: 1.5em;
+    line-height: 32px;
+}
+
+a {
+    -webkit-transition: border-color 200ms ease, color 200ms ease;
+    transition: border-color 200ms ease, color 200ms ease;
+    color: #f3faff;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-color: #1d2330;
+    color:#8ec63f;
+}
+
+#link {
+    font-family: 'Cabin', sans-serif;
+    color: #f3faff;
+    overflow: hidden;
+    background: linear-gradient(to right, #8ec63f, #8ec63f 50%, #f3faff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; 
+  }
+
+#link:hover {
+    background-position: 0 100%;
+}
+  
+#email {
+    color: #f3faff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background: linear-gradient(to right, #8ec63f, #8ec63f 50%, #f3faff 50%);
+    background-clip: text;
+    overflow: hidden;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+#email:hover {
+    background-position: 0 100%;
+}
+
+.content {
+    margin-top: 64px;
+}
+
+.social-icon {
+    margin-top: 32px;
+    padding-right: 32px;
+    float: left;
+    border-bottom: 0px none #000;
+}
