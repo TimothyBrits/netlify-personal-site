@@ -1,98 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 body {
-    background-color: #43493a;
-    margin-top: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: #ffffff;
 }
   
 h1 {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-family: 'Raleway', sans-serif;
-    color: #f3faff;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: #101010;
     font-size: 3em;
-    line-height: 48px;
-    font-weight: 300;
 }
 
-
-#location {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-family: 'Raleway', sans-serif;
-    color: #f3faff;
-    font-size: 1em;
-    line-height: 32px;
-    font-weight: 200;
-    text-transform: uppercase;
+strong {
+    font-weight: 700;
 }
 
 p {
-    margin-bottom: 16px;
-    font-family: 'Cabin', sans-serif;
-    color: #f3faff;
-    font-size: 1.5em;
-    line-height: 32px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    color: #101010;
+    font-size: 1.25em;
+    line-height: 1.5em;
 }
 
-a {
-    -webkit-transition: border-color 200ms ease, color 200ms ease;
-    transition: border-color 200ms ease, color 200ms ease;
-    color: #f3faff;
-    text-decoration: none;
+.main {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    width: 65%;
 }
 
-a:hover {
-    border-bottom-color: #1d2330;
-    color:#8ec63f;
+#twitter {
+    margin-right: 0.5em;
 }
 
-#link {
-    font-family: 'Cabin', sans-serif;
-    color: #f3faff;
-    overflow: hidden;
-    background: linear-gradient(to right, #8ec63f, #8ec63f 50%, #f3faff 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 275ms ease;
-    text-decoration: none; 
-  }
-
-#link:hover {
-    background-position: 0 100%;
+#twitter:hover {
+    fill: #1da1f2;
 }
-  
+
+#linkedin {
+    margin-right: 0.5em;
+}
+
+#linkedin:hover {
+    fill: #2867b2;
+}
+
+#github {
+    margin-right: 0.5em;
+}
+
+#github:hover {
+    fill: #24292e;
+}
+
 #email {
-    color: #f3faff;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    background: linear-gradient(to right, #8ec63f, #8ec63f 50%, #f3faff 50%);
-    background-clip: text;
-    overflow: hidden;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 275ms ease;
+    margin-right: 0.5em;
 }
 
 #email:hover {
-    background-position: 0 100%;
+    fill: #D44638;
 }
 
-.content {
-    margin-top: 64px;
-}
-
-.social-icon {
-    margin-top: 32px;
-    padding-right: 32px;
-    float: left;
-    border-bottom: 0px none #000;
+a {
+    text-decoration: none;
+    color: inherit;
 }
