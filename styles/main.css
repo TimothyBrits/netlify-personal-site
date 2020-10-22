@@ -39,11 +39,19 @@ p {
     fill: #1da1f2;
 }
 
+#twitter:active {
+    fill: #1da1f2;
+}
+
 #linkedin {
     margin-right: 0.5em;
 }
 
 #linkedin:hover {
+    fill: #2867b2;
+}
+
+#linkedin:active {
     fill: #2867b2;
 }
 
@@ -55,11 +63,19 @@ p {
     fill: #24292e;
 }
 
+#github:active {
+    fill: #24292e;
+}
+
 #email {
     margin-right: 0.5em;
 }
 
 #email:hover {
+    fill: #D44638;
+}
+
+#email:active {
     fill: #D44638;
 }
 
