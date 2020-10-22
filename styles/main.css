@@ -67,3 +67,15 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+#text-link {
+    text-decoration: underline;
+}
+
+#text-link:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
