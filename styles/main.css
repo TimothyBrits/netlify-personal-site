@@ -21,6 +21,9 @@ p {
     color: #101010;
     font-size: 1.25em;
     line-height: 2em;
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .main {
