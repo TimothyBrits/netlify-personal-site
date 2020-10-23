@@ -1,4 +1,4 @@
-# thirsty-nobel-da364b
+# https://timothybrits.com
 
 My personal site hosted on Netlify.
 
