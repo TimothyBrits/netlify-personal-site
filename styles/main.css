@@ -2,6 +2,7 @@
 
 body {
     background-color: #ffffff;
+    overflow: hide;
 }
 
 h1 {
@@ -27,10 +28,10 @@ p {
 }
 
 .main {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     width: 70%;
 }
 
