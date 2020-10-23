@@ -1,4 +1,4 @@
-# thirsty-nobel-da364b
+# https://thirsty-nobel-da364b.netlify.app
 
 My personal site hosted on Netlify.
 
