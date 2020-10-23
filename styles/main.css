@@ -86,11 +86,11 @@ a {
     color: inherit;
 }
 
-#text-link {
+.text-link {
     text-decoration: underline;
 }
 
-#text-link:hover {
+.text-link:hover {
     text-decoration: none;
 }
 
