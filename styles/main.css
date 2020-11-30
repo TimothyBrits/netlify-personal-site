@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-
 body {
-    background-color: #ffffff;
+    background-color: #1C1E26;
 }
 
 h1 {
-    font-family: 'Space Mono', monospace;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 700;
-    color: #101010;
-    font-size: 2.5em;
+    color: #E95678;
+    font-size: 3em;
 }
 
 strong {
@@ -16,11 +14,11 @@ strong {
 }
 
 p {
-    font-family: 'Space Mono', monospace;
-    font-weight: 400;
-    color: #101010;
-    font-size: 1.25em;
-    line-height: 2em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color: #FDF0ED;
+    font-size: 1.125em;
+    line-height: 2rem;
     hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
@@ -29,70 +27,36 @@ p {
 .main {
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 80%;
 }
 
-#twitter {
-    margin-right: 0.5em;
+.nav-link {
+    color: #25B2BC;
+    line-height: 1.5rem;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: underline;
+    font-size: 1.125em;
+    font-weight: 400;
+    margin-right: 0.6rem;
 }
 
-#twitter:hover {
-    fill: #1da1f2;
-}
-
-#twitter:active {
-    fill: #1da1f2;
-}
-
-#linkedin {
-    margin-right: 0.5em;
-}
-
-#linkedin:hover {
-    fill: #2867b2;
-}
-
-#linkedin:active {
-    fill: #2867b2;
-}
-
-#github {
-    margin-right: 0.5em;
-}
-
-#github:hover {
-    fill: #24292e;
-}
-
-#github:active {
-    fill: #24292e;
-}
-
-#email {
-    margin-right: 0.5em;
-}
-
-#email:hover {
-    fill: #D44638;
-}
-
-#email:active {
-    fill: #D44638;
-}
-
-a {
+.nav-link:hover {
     text-decoration: none;
-    color: inherit;
+}
+
+.nav-link:visited {
+    color: #25B2BC;
 }
 
 .text-link {
     text-decoration: underline;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .text-link:hover {
     text-decoration: none;
 }
 
-a:visited {
-    color: inherit;
+.text-link:visited {
+    color: #FDF0ED;
 }
