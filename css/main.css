@@ -7,8 +7,8 @@ body {
 h1 {
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     font-weight: 600;
-    color: #E95678;
-    font-size: 3em;
+    color: #F43E5C;
+    font-size: 3rem;
 }
 
 strong {
@@ -43,7 +43,7 @@ p {
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #FDF0ED;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     line-height: 2rem;
     hyphens: auto;
     -ms-hyphens: auto;
@@ -51,11 +51,11 @@ p {
 }
 
 .nav-link {
-    color: #25B2BC;
+    color: #09F7A0;
     line-height: 1.5rem;
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     text-decoration: underline;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-weight: 300;
     margin-right: 0.5rem;
 }
@@ -65,7 +65,7 @@ p {
 }
 
 .nav-link:visited {
-    color: #25B2BC;
+    color: #09F7A0;
 }
 
 .text-link {
