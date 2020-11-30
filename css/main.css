@@ -4,7 +4,7 @@ body {
 
 h1 {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     color: #E95678;
     font-size: 3em;
 }
@@ -17,7 +17,7 @@ strong {
 @media only screen and (max-width: 600px) {
     .container {
         margin: auto;
-        width: 95%;
+        width: 90%;
     }
 }
 
@@ -55,7 +55,7 @@ p {
     text-decoration: underline;
     font-size: 1.125em;
     font-weight: 400;
-    margin-right: 0.5rem;
+    margin-right: 0.6rem;
 }
 
 .nav-link:hover {
@@ -66,8 +66,13 @@ p {
     color: #25B2BC;
 }
 
+.nav-link-last {
+    margin-right: 0px !important;
+}
+
 .text-link {
     text-decoration: underline;
+    color:#FDF0ED;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
