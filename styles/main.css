@@ -13,6 +13,12 @@ strong {
     font-weight: 700;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 p {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
@@ -24,12 +30,6 @@ p {
     -webkit-hyphens: auto;
 }
 
-.main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
 .nav-link {
     color: #25B2BC;
     line-height: 1.5rem;
@@ -37,7 +37,7 @@ p {
     text-decoration: underline;
     font-size: 1.125em;
     font-weight: 400;
-    margin-right: 0.6rem;
+    margin-right: 0.5rem;
 }
 
 .nav-link:hover {
