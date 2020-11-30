@@ -55,7 +55,7 @@ p {
     text-decoration: underline;
     font-size: 1.125em;
     font-weight: 400;
-    margin-right: 0.6rem;
+    margin-right: 0.5rem;
 }
 
 .nav-link:hover {
@@ -66,13 +66,9 @@ p {
     color: #25B2BC;
 }
 
-.nav-link-last {
-    margin-right: 0px !important;
-}
-
 .text-link {
     text-decoration: underline;
-    color:#FDF0ED;
+    color: #FDF0ED;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
