@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
 body {
     background-color: #1C1E26;
 }
 
 h1 {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 500;
+    font-family: Source Sans Pro;
+    font-weight: 600;
     color: #E95678;
     font-size: 3em;
 }
 
 strong {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -38,7 +40,7 @@ strong {
 }
 
 p {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: Source Sans Pro;
     font-weight: 300;
     color: #FDF0ED;
     font-size: 1.125em;
@@ -51,10 +53,10 @@ p {
 .nav-link {
     color: #25B2BC;
     line-height: 1.5rem;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Source Sans Pro;
     text-decoration: underline;
     font-size: 1.125em;
-    font-weight: 400;
+    font-weight: 300;
     margin-right: 0.5rem;
 }
 
@@ -69,7 +71,7 @@ p {
 .text-link {
     text-decoration: underline;
     color: #FDF0ED;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: Source Sans Pro;
 }
 
 .text-link:hover {
