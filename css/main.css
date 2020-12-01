@@ -8,7 +8,7 @@ h1 {
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #F43E5C;
-    font-size: 3em;
+    font-size: 7vmin;
 }
 
 strong {
@@ -19,7 +19,7 @@ strong {
 @media only screen and (max-width: 600px) {
     .container {
         margin: auto;
-        width: 95%;
+        width: 90%;
     }
 }
 
@@ -27,7 +27,7 @@ strong {
 @media only screen and (min-width: 600px) {
     .container {
         margin: auto;
-        width: 95%;
+        width: 80%;
     }
 }
 
@@ -35,7 +35,23 @@ strong {
 @media only screen and (min-width: 768px) {
     .container {
         margin: auto;
+        width: 70%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        margin: auto;
         width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        margin: auto;
+        width: 50%;
     }
 }
 
@@ -43,8 +59,8 @@ p {
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #FDF0ED;
-    font-size: 1.125em;
-    line-height: 2em;
+    font-size: 4vmin;
+    line-height: 6vmin;
     hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
@@ -52,12 +68,12 @@ p {
 
 .nav-link {
     color: #09F7A0;
-    line-height: 1.5em;
+    line-height: 5vmin;
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     text-decoration: underline;
-    font-size: 1.125em;
+    font-size: 4vmin;
     font-weight: 300;
-    margin-right: 0.5em;
+    margin-right: 1vw;
 }
 
 .nav-link:hover {
