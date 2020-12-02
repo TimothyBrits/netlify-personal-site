@@ -8,7 +8,8 @@ h1 {
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #F43E5C;
-    font-size: 8vmin;
+    font-size: 9vmin;
+    line-height: 5vmin;
 }
 
 strong {
@@ -19,13 +20,36 @@ strong {
     margin: auto;
 }
 
-@media only screen and (max-width: 992px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     .container {
         width: 90%;
     }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     .container {
         width: 60%;
     }
@@ -35,8 +59,8 @@ p {
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #FDF0ED;
-    font-size: 4vmin;
-    line-height: 6vmin;
+    font-size: 3.5vmin;
+    line-height: 5vmin;
     hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
@@ -47,7 +71,7 @@ p {
     line-height: 5vmin;
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     text-decoration: underline;
-    font-size: 4vmin;
+    font-size: 3vmin;
     font-weight: 300;
     margin-right: 2vw;
 }
