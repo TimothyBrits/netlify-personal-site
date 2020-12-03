@@ -37,21 +37,21 @@ strong {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .container {
-        width: 80%;
+        width: 70%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .container {
-        width: 70%;
+        width: 60%;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .container {
-        width: 60%;
+        width: 50%;
     }
 }
 
