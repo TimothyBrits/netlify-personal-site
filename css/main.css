@@ -59,8 +59,8 @@ p {
     font-family: Roboto;
     font-weight: 300;
     color: #FDF0ED;
-    font-size: 3.5vmin;
-    line-height: 5vh;
+    font-size: 3.6vmin;
+    line-height: 2rem;
     hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
@@ -98,4 +98,8 @@ p {
 
 .float-right {
     float: right;
+}
+
+footer {
+    margin-bottom: 32px;
 }
