@@ -9,6 +9,7 @@ h1 {
     font-weight: 600;
     color: #F43E5C;
     font-size: 7vh;
+    margin-bottom: 1vh;
 }
 
 strong {
@@ -88,6 +89,7 @@ p {
 
 .nav-link:visited {
     color: #09F7A0;
+    text-decoration: none;
 }
 
 .text-link {
@@ -109,6 +111,7 @@ p {
 
 .text-link:visited {
     color: #FDF0ED;
+    text-decoration: none;
 }
 
 .float-right {
@@ -116,5 +119,5 @@ p {
 }
 
 footer {
-    margin-bottom: 16px;
+    margin-bottom: 1vh;
 }
