@@ -15,41 +15,41 @@ strong {
     font-weight: 400;
 }
 
-.container {
+.content {
     margin: auto;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .container {
+    .content {
         width: 95%;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .container {
+    .content {
         width: 90%;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .container {
+    .content {
         width: 70%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .container {
+    .content {
         width: 60%;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .container {
+    .content {
         width: 50%;
     }
 }
@@ -68,14 +68,22 @@ p {
 .nav-link {
     color: #09F7A0;
     font-family: Nunito;
-    text-decoration: underline;
+    --n: 5;
+    text-decoration: none;
+    display: inline-block;
+    background:
+        linear-gradient(to right,
+            #09F7A0 calc(100%/var(--n)),
+            transparent 0 calc((var(--n) - 1)*100%/var(--n)),
+            #09F7A0 0) bottom right/ calc(var(--n)*100%) 2px no-repeat;
     font-size: 3.5vmin;
     font-weight: 400;
     margin-right: 2vw;
 }
 
 .nav-link:hover {
-    text-decoration: none;
+    background-position: bottom left;
+    transition: 1.5s;
 }
 
 .nav-link:visited {
@@ -83,12 +91,20 @@ p {
 }
 
 .text-link {
-    text-decoration: underline;
+    --n: 4;
     color: #FDF0ED;
+    text-decoration: none;
+    display: inline-block;
+    background:
+        linear-gradient(to right,
+        #FDF0ED calc(100%/var(--n)),
+            transparent 0 calc((var(--n) - 1)*100%/var(--n)),
+            #FDF0ED 0) bottom right/ calc(var(--n)*100%) 1.5px no-repeat;
 }
 
 .text-link:hover {
-    text-decoration: none;
+    background-position: bottom left;
+    transition: 1.5s;
 }
 
 .text-link:visited {
