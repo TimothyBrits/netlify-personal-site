@@ -76,7 +76,7 @@ p {
         linear-gradient(to right,
             #09F7A0 calc(100%/var(--n)),
             transparent 0 calc((var(--n) - 1)*100%/var(--n)),
-            #09F7A0 0) bottom right/ calc(var(--n)*100%) 2px no-repeat;
+            #09F7A0 0) bottom right/calc(var(--n)*100%) 2px no-repeat;
     font-size: 3.5vmin;
     font-weight: 400;
     margin-right: 2vw;
@@ -101,7 +101,7 @@ p {
         linear-gradient(to right,
         #FDF0ED calc(100%/var(--n)),
             transparent 0 calc((var(--n) - 1)*100%/var(--n)),
-            #FDF0ED 0) bottom right/ calc(var(--n)*100%) 1.5px no-repeat;
+            #FDF0ED 0) bottom right/calc(var(--n)*100%) 1.5px no-repeat;
 }
 
 .text-link:hover {
