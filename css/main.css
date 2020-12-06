@@ -9,7 +9,6 @@ h1 {
     font-weight: 600;
     color: #F43E5C;
     font-size: 8vh;
-    margin-top: 1vh;
 }
 
 strong {
@@ -120,4 +119,8 @@ p {
 
 footer {
     margin-bottom: 1vh;
+}
+
+header {
+    margin-top: 1vh;
 }
