@@ -1,0 +1,21 @@
+{
+  "name": "netlify-personal-site",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/f9516d4f-e5a2-4501-945c-409011dca610/deploy-status)](https://app.netlify.com/sites/timothybrits/deploys)",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "npx tailwindcss build ./css/build.css -o ./public/css/dist.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyBrits/netlify-personal-site.git"
+  },
+  "author": "Timothy Brits",
+  "license": "MIT",
+  "homepage": "https://github.com/TimothyBrits/netlify-personal-site#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
