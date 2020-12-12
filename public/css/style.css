@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
 
-.center {
-  text-align: center;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
   background-color: #197b58;
-  margin: auto;
 }
 
 h1 {
   font-family: Darker Grotesque;
-  font-size: 15vmax;
+  font-size: 10vmax;
   font-weight: 500;
   color: #1e1e1e;
 }
