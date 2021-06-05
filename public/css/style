@@ -1,0 +1,4 @@
+.center-vertical {
+	top: 50%;
+	text-align: center;
+}
