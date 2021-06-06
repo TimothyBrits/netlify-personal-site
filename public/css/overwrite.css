@@ -24,4 +24,11 @@ p {
 	hyphenate-limit-lines: 2;
 	hyphenate-limit-last: always;
 	hyphenate-limit-zone: 8%;
+
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.center-text {
+	text-align: center;
 }
