@@ -1,4 +1,4 @@
-# timothybrits.netlify.app
+# [timothybrits.netlify.app](https://timothybrits.com)
 
 Uses [sakura](https://github.com/oxalorg/sakura) for theming. 
 
