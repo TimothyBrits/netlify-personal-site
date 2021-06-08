@@ -20,10 +20,6 @@ p {
 	-ms-hyphenate-limit-zone: 8%;
 
 	hyphens: auto;
-	hyphenate-limit-chars: 6 3 3;
-	hyphenate-limit-lines: 2;
-	hyphenate-limit-last: always;
-	hyphenate-limit-zone: 8%;
 
 	text-align: justify;
 	text-justify: inter-word;
