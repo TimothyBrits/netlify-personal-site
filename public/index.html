@@ -28,7 +28,6 @@
 		/>
 		<link rel="manifest" href="/site.webmanifest" />
 
-		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/sakura-vader.css" />
 		<link rel="stylesheet" href="css/override.css" />
 	</head>
@@ -80,27 +79,22 @@
 			<h2>Get in touch with me.</h2>
 
 			<nav>
-				[
-				<a
-					href="mailto:&#116;&#105;&#109;&#111;&#116;&#104;&#121;&#98;&#114;&#105;&#116;&#115;&#64;&#112;&#109;&#46;&#109;&#101;"
-					>Email</a
-				>,
-				<a
-					href="https://za.linkedin.com/in/timothybrits"
-					rel="noopener noreferrer"
-					target="_blank"
-					>LinkedIn</a
-				>,
-				<a
-					href="https://github.com/Mononoke5509"
-					rel="noopener noreferrer"
-					target="_blank"
-					>GitHub</a
-				>
-				]
+				<form target="_blank" rel="noopener noreferrer">
+					<button
+						formaction="https://za.linkedin.com/in/timothybrits"
+					>
+						LinkedIn
+					</button>
+					<button formaction="https://github.com/Mononoke5509">
+						GitHub
+					</button>
+					<button
+						formaction="mailto:&#116;&#105;&#109;&#111;&#116;&#104;&#121;&#98;&#114;&#105;&#116;&#115;&#64;&#112;&#109;&#46;&#109;&#101;"
+					>
+						Email
+					</button>
+				</form>
 			</nav>
 		</footer>
-
-		<script src="js/app.js" defer></script>
 	</body>
 </html>
