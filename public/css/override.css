@@ -1,3 +1,7 @@
+html {
+	font-size: 65%;
+}
+
 p {
 	text-align: justify;
 	text-justify: inter-word;
@@ -5,4 +9,12 @@ p {
 
 .center-text {
 	text-align: center;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	padding: 7px 14px;
 }
