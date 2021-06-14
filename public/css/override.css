@@ -1,5 +1,5 @@
 html {
-	font-size: 65%;
+	font-size: 70%;
 }
 
 p {
@@ -16,5 +16,5 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-	padding: 9px 18px;
+	padding: 10px 20px;
 }
