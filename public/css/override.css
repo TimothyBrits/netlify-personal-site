@@ -2,11 +2,6 @@ html {
 	font-size: 65%;
 }
 
-p {
-	text-align: justify;
-	text-justify: inter-word;
-}
-
 .center-text {
 	text-align: center;
 }
