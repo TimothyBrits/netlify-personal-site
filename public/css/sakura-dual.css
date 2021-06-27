@@ -131,7 +131,6 @@
 		margin-bottom: 2.5rem;
 	}
 
-	/* Pre and Code */
 	pre {
 		background-color: #4a4a4a;
 		display: block;
@@ -154,7 +153,6 @@
 		white-space: pre;
 	}
 
-	/* Tables */
 	table {
 		text-align: justify;
 		width: 100%;
@@ -167,7 +165,6 @@
 		border-bottom: 1px solid #4a4a4a;
 	}
 
-	/* Buttons, forms and input */
 	input,
 	textarea {
 		border: 1px solid #c9c9c9;
@@ -388,7 +385,6 @@
 		margin-bottom: 2.5rem;
 	}
 
-	/* Pre and Code */
 	pre {
 		background-color: #f7f7f7;
 		display: block;
@@ -411,7 +407,6 @@
 		white-space: pre;
 	}
 
-	/* Tables */
 	table {
 		text-align: justify;
 		width: 100%;
@@ -424,7 +419,6 @@
 		border-bottom: 1px solid #f7f7f7;
 	}
 
-	/* Buttons, forms and input */
 	input,
 	textarea {
 		border: 1px solid rgba(0, 0, 0, 0.85);
@@ -484,7 +478,6 @@
 	input[type] {
 		color: rgba(0, 0, 0, 0.85);
 		padding: 6px 10px;
-		/* The 6px vertically centers text on FF, ignored by Webkit */
 		margin-bottom: 10px;
 		background-color: #f7f7f7;
 		border: 1px solid #f7f7f7;
