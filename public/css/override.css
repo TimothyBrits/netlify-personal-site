@@ -2,6 +2,12 @@ html {
 	font-size: 65%;
 }
 
+body {
+	font-smooth: auto;
+	-webkit-font-smoothing: subpixel-antialiased, antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 .center-text {
 	text-align: center;
 }
