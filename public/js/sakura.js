@@ -14,7 +14,7 @@ var Sakura = function Sakura(selector, options) {
 		fallSpeed: 1,
 		maxSize: 14,
 		minSize: 10,
-		delay: 500,
+		delay: 1000,
 		colors: [
 			{
 				gradientColorStart: "rgba(255, 183, 197, 0.9)",
