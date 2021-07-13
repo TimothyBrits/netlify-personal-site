@@ -189,7 +189,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	padding: 8px 16px;
+	padding: 7px 14px;
 	margin-right: 1%;
 	text-align: center;
 	text-decoration: none;
