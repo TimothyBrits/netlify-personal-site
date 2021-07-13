@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600;700&family=Montserrat:wght@700&display=swap');
 
 /* Body */
 html {
@@ -201,7 +201,7 @@ input[type="button"] {
 	cursor: pointer;
 	box-sizing: border-box;
   font-family: "Merriweather Sans";
-  font-weight: 700;
+  font-weight: 600;
 }
 .button[disabled],
 button[disabled],
